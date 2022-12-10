@@ -1,0 +1,60 @@
+.title-form{
+    color: black;
+    font-size: 1.6rem;
+    font-family: fantasy;
+    text-align: center;
+    padding: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+.title-form.title-agregar{
+    color: rgb(1, 158, 1);
+}
+.form-add{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+}
+.form-add input[type="text"],
+.form-add input[type="number"]{
+    border: none;
+    padding: 6px 0px 6px 4px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1rem;
+    
+}
+.form-add input[type="text"]:valid,.form-add
+input[type="number"]{
+    border: 1px solid rgb(1, 158, 1);
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.text-error{
+    color: red;
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.25rem;
+}
+.form_btn_add{
+    background-color: #1aa33a;
+    border: 0;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+.form_btn_add:hover{
+    background-color: rgb(1, 158, 1);
+}

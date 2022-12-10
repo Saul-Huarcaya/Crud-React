@@ -1,0 +1,58 @@
+.title-form{
+    color: black;
+    font-size: 1.6rem;
+    font-family: fantasy;
+    text-align: center;
+    padding: 0.25rem;
+    margin-bottom: 0.5rem;
+    
+}
+.title-form.title-actualizar{
+    color: orange;
+}
+.form-update{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+}
+.form-update input[type="text"],.form-update input[type="number"]{
+    border: none;
+    padding: 6px 0px 6px 4px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1rem;
+    
+}
+.form-update input[type="text"]:valid,.form-update input[type="number"]{
+    border: 1px solid orange;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.text-error{
+    color: red;
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.25rem;
+}
+.form_btn_update{
+    background-color: rgb(187, 122, 2);
+    border: 0;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    font-weight: 600;
+}
+.form_btn_update:hover{
+    background-color: rgb(255, 166, 2);
+}
